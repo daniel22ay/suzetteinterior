@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowUp, Mail, Phone, MapPin } from 'lucide-react';
 import { BRAND_INFO } from '../data/content';
+import { VisionLogo } from './VisionLogo';
 
 export const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -18,15 +19,10 @@ export const Footer: React.FC = () => {
           {/* Brand Info & Identity */}
           <div className="lg:col-span-5 flex flex-col justify-between">
             <div>
-              <div className="flex flex-col items-start">
-                <span className="font-serif-luxury text-3xl font-semibold tracking-[0.22em] text-white uppercase">
-                  VISION
-                </span>
-                <span className="text-[10px] uppercase font-sans-clean font-medium tracking-[0.32em] text-[#A2E2E8] -mt-1">
-                  Interior Design
-                </span>
+              <div className="mb-4">
+                <VisionLogo className="h-14 sm:h-16 w-auto" theme="light" variant="mark" />
               </div>
-              <p className="mt-5 text-sm text-[#94A3B8] font-light leading-relaxed max-w-sm">
+              <p className="mt-4 text-sm text-[#94A3B8] font-light leading-relaxed max-w-sm">
                 Thoughtful commercial spaces and retail environments. Established interior architecture and consulting led by Suzette Lauziere since 1987.
               </p>
             </div>

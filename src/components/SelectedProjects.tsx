@@ -12,11 +12,10 @@ export const SelectedProjects: React.FC<SelectedProjectsProps> = ({ onOpenBookin
   const [filter, setFilter] = useState<string>('all');
 
   const categories = [
-    { label: 'All Projects', value: 'all' },
-    { label: 'Retail & Boutiques', value: 'Retail' },
-    { label: 'Commercial & Health', value: 'Commercial' },
+    { label: 'All Work', value: 'all' },
     { label: 'Custom Millwork', value: 'Millwork' },
-    { label: 'Office & Condominium', value: 'Office' }
+    { label: 'Commercial Retail', value: 'Commercial' },
+    { label: 'Concept Elevations', value: 'Concept' }
   ];
 
   const filteredProjects = AUTHENTIC_PROJECTS.filter((p) => {

@@ -19,16 +19,16 @@ export const AboutDesigner: React.FC<AboutDesignerProps> = ({ onOpenBooking }) =
               {/* Architectural Detail Frame */}
               <div className="relative overflow-hidden bg-white p-3 shadow-lg border border-[#E2E8F0]">
                 <img
-                  src="/assets/aistudio/image_38ef4952.png"
-                  alt="Custom architectural millwork created under Suzette Lauziere's direction"
+                  src="/assets/aistudio/image_dffdc921.png"
+                  alt="Suzette Lauziere conducting client design consultation and commercial floor plan review"
                   className="w-full h-[460px] object-cover object-center"
                 />
                 <div className="p-4 bg-[#132A2F] text-white">
                   <span className="text-[10px] font-sans-clean uppercase tracking-[0.2em] text-[#A2E2E8] block mb-1">
-                    Signature Millwork
+                    Design Consultation in Practice
                   </span>
                   <p className="font-serif-luxury text-sm font-light">
-                    Custom circular display millwork crafted for specialty boutique retail.
+                    Collaborative architectural discovery, dimensional review, and spatial planning.
                   </p>
                 </div>
               </div>

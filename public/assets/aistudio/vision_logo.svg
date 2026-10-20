@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="100%" height="100%">
+  <!-- Background is transparent -->
+  <g id="vision-interior-design-logo">
+    <!-- INTERIOR text aligned over SION -->
+    <text x="368" y="105" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="34" font-weight="300" letter-spacing="14" fill="#323232">INTERIOR</text>
+
+    <!-- MAIN VISION WORDMARK -->
+    <!-- 'V' -->
+    <text x="48" y="258" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="180" font-weight="300" fill="#2E2E2E">V</text>
+
+    <!-- Artistic Orange Brushstroke 'i' -->
+    <!-- Dot of the i (painterly tilted oval) -->
+    <ellipse cx="180" cy="88" rx="25" ry="18" transform="rotate(-24 180 88)" fill="#F26522"/>
+    <ellipse cx="180" cy="88" rx="14" ry="10" transform="rotate(-15 180 88)" fill="#E05412" opacity="0.6"/>
+    <!-- Stem of the i (expressive textured brush stroke) -->
+    <path d="M 174 135 C 172 165, 171 210, 172 258 C 174 266, 184 266, 187 258 C 190 220, 191 170, 187 135 C 185 128, 175 128, 174 135 Z" fill="#F26522"/>
+    <path d="M 177 142 C 176 170, 175 215, 176 250 C 178 255, 182 255, 183 250 C 185 220, 186 175, 184 142 Z" fill="#FFA066" opacity="0.4"/>
+    <path d="M 171 190 C 170 215, 170 240, 173 262 C 174 265, 177 265, 176 258 C 174 235, 175 210, 175 190 Z" fill="#D34B0B" opacity="0.7"/>
+
+    <!-- 'S I O N' in tall modern condensed lettering -->
+    <text x="215" y="258" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="180" font-weight="300" letter-spacing="4" fill="#2E2E2E">SION</text>
+
+    <!-- DESIGN text aligned under SION -->
+    <text x="368" y="306" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="34" font-weight="300" letter-spacing="14" fill="#323232">DESIGN</text>
+
+    <!-- Tagline: COMMERCIAL • RETAIL • RESIDENTIAL -->
+    <g transform="translate(48, 350)">
+      <text x="0" y="0" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="16" font-weight="400" letter-spacing="7" fill="#4B4B4B">COMMERCIAL</text>
+      <circle cx="198" cy="-5" r="4" fill="#F26522"/>
+      <text x="218" y="0" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="16" font-weight="400" letter-spacing="7" fill="#4B4B4B">RETAIL</text>
+      <circle cx="338" cy="-5" r="4" fill="#F26522"/>
+      <text x="358" y="0" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="16" font-weight="400" letter-spacing="7" fill="#4B4B4B">RESIDENTIAL</text>
+    </g>
+
+    <!-- Contact line: P 613.294.0077 • E suzette@visioninteriordesign.ca • W www.visioninteriordesign.ca -->
+    <g transform="translate(48, 385)">
+      <text x="0" y="0" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="13" font-weight="600" letter-spacing="1" fill="#333333">P <tspan font-weight="400">613.294.0077</tspan></text>
+      <circle cx="120" cy="-4" r="3" fill="#F26522"/>
+      <text x="134" y="0" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="13" font-weight="600" letter-spacing="1" fill="#333333">E <tspan font-weight="400">suzette@visioninteriordesign.ca</tspan></text>
+      <circle cx="366" cy="-4" r="3" fill="#F26522"/>
+      <text x="380" y="0" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="13" font-weight="600" letter-spacing="1" fill="#333333">W <tspan font-weight="400">www.visioninteriordesign.ca</tspan></text>
+    </g>
+  </g>
+</svg>

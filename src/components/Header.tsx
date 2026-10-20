@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, ArrowUpRight, Phone, MessageSquare } from 'lucide-react';
 import { BRAND_INFO } from '../data/content';
+import { VisionLogo } from './VisionLogo';
 
 interface HeaderProps {
   onOpenBooking: () => void;
@@ -40,15 +41,10 @@ export const Header: React.FC<HeaderProps> = ({ onOpenBooking, onOpenChat }) => 
           {/* Logo */}
           <a
             href="#"
-            className="group flex flex-col items-start focus:outline-none focus-visible:ring-2 focus-visible:ring-[#0D5C63] rounded"
+            className="group flex items-center focus:outline-none focus-visible:ring-2 focus-visible:ring-[#0D5C63] rounded py-1"
             aria-label="VISION Interior Design Homepage"
           >
-            <span className="font-serif-luxury text-2xl sm:text-3xl font-semibold tracking-[0.22em] text-[#132A2F] uppercase transition-colors group-hover:text-[#0D5C63]">
-              VISION
-            </span>
-            <span className="text-[9px] sm:text-[10px] uppercase font-sans-clean font-medium tracking-[0.32em] text-[#0D5C63] -mt-0.5">
-              Interior Design
-            </span>
+            <VisionLogo className="h-10 sm:h-12 w-auto" theme="dark" variant="mark" />
           </a>
 
           {/* Desktop Navigation */}
@@ -109,14 +105,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenBooking, onOpenChat }) => 
           <div className="fixed top-0 right-0 bottom-0 w-4/5 max-w-sm bg-[#FAF9F5] p-8 shadow-2xl flex flex-col justify-between overflow-y-auto">
             <div>
               <div className="flex items-center justify-between pb-6 border-b border-[#E2E8F0]">
-                <div className="flex flex-col">
-                  <span className="font-serif-luxury text-xl font-semibold tracking-[0.2em] text-[#132A2F]">
-                    VISION
-                  </span>
-                  <span className="text-[9px] uppercase tracking-[0.3em] text-[#0D5C63]">
-                    Interior Design
-                  </span>
-                </div>
+                <VisionLogo className="h-10 w-auto" theme="dark" variant="mark" />
                 <button
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="p-2 text-[#3A4850] hover:text-[#0D5C63]"

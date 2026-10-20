@@ -17,25 +17,9 @@ export const BRAND_INFO = {
 
 export const AUTHENTIC_PROJECTS: Project[] = [
   {
-    id: 'boutique-retail-millwork',
-    title: 'Boutique Retail & Custom Millwork Showcase',
-    category: 'Retail & Specialty Store Design',
-    image: '/assets/aistudio/image_045d5082.png',
-    summary:
-      'Turnkey commercial retail space featuring bespoke dark-stained cash counter casework, tiered footwear display shelving, illuminated overhead soffit, and targeted architectural pendant lighting.',
-    scope: [
-      'Custom Millwork & Cash Wrap Architecture',
-      'Merchandising Flow & Footwear Display Shelving',
-      'Suspended Ceiling Bulkhead & Pendant Lighting',
-      'Durable Commercial Flooring & Color Palette'
-    ],
-    location: 'Ottawa / Eastern Ontario',
-    highlight: 'Custom Architectural Millwork'
-  },
-  {
     id: 'circular-display-architecture',
     title: 'Circular Display & Leather Goods Architecture',
-    category: 'Custom Millwork & Fixture Design',
+    category: 'Custom Millwork & Fixtures',
     image: '/assets/aistudio/image_38ef4952.png',
     summary:
       'Statement circular geometric display unit crafted in rich stained hardwood, integrating compartmentalized niches for luxury handbags, leather accessories, and ambient accent illumination.',
@@ -65,36 +49,20 @@ export const AUTHENTIC_PROJECTS: Project[] = [
     highlight: 'Suspended Canopy Architecture'
   },
   {
-    id: 'professional-office-fitup',
-    title: 'Corporate & Professional Office Fit-Ups',
-    category: 'Commercial Office Fit-Ups',
-    image: '/assets/aistudio/image_045d5082.png', // authentic interior detail
+    id: 'architectural-ceiling-concept',
+    title: 'Architectural Ceiling & Lighting Concept Elevation',
+    category: 'Conceptual Design & Illumination',
+    image: '/assets/aistudio/image_eea31fa8.png',
     summary:
-      'Comprehensive space planning, boardroom fit-ups, executive suites, and ergonomic staff workstations designed for institutional property management firms and corporate tenants.',
+      'Original hand-rendered architectural elevation presenting a multi-tier coffered acoustic ceiling, targeted pendant light fixtures, textured focal display wall, and integrated commercial transaction counter.',
     scope: [
-      'Commercial Leasehold Improvement Planning',
-      'Acoustic Planning & Privacy Demising Walls',
-      'Executive Boardroom & Reception Environments',
-      'Full Contractor Tender & On-Site Oversight'
+      'Conceptual Hand-Drafted Elevations',
+      'Suspended Bulkhead & Coffered Ceiling Detailing',
+      'Architectural Pendant Illumination Clustering',
+      'Integrated Cash Wrap & Feature Wall Finishes'
     ],
-    location: 'Kanata / Ottawa Commercial Towers',
-    highlight: 'Long-standing Commercial Trust'
-  },
-  {
-    id: 'condo-common-retrofits',
-    title: 'Condominium Common Area & Lobby Retrofits',
-    category: 'Multi-Residential & Condominium Modernization',
-    image: '/assets/aistudio/image_38ef4952.png', // authentic millwork detail
-    summary:
-      'Transforming high-traffic condominium lobbies, elevator vestibules, and shared corridors with durable, timeless finishes, strategic lighting, and contemporary architectural millwork.',
-    scope: [
-      'Common Area Architectural Retrofits',
-      'High-Traffic Commercial Finishes & Textiles',
-      'Corridor Lighting & Signage Refinement',
-      'Coordination with Condominium Boards & PMs'
-    ],
-    location: 'KeyComm Condominium Properties, Ottawa',
-    highlight: 'Enduring Material Durability'
+    location: 'Commercial Fit-Up Concept Study',
+    highlight: 'Conceptual Lateral Thinking'
   }
 ];
 

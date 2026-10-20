@@ -1,0 +1,45 @@
+[
+  {
+    "id": "bk_sample_1",
+    "clientName": "KeyComm Office Fit-Up Review",
+    "email": "info@keycomm.ca",
+    "preferredDate": "2026-10-22",
+    "preferredTimeSlot": "11:00 AM",
+    "timeZone": "America/Toronto (EDT)",
+    "format": "onsite",
+    "projectType": "Professional Office Fit-Up",
+    "projectDescription": "Preliminary space layout review for Kanata commercial floor",
+    "status": "confirmed",
+    "createdAt": "2026-10-18T10:00:00.000Z",
+    "referenceCode": "VID-2026-KC1"
+  },
+  {
+    "clientName": "Test Client",
+    "email": "client@example.ca",
+    "preferredDate": "2026-10-23",
+    "preferredTimeSlot": "01:30 PM",
+    "timeZone": "America/Toronto (EDT)",
+    "format": "virtual",
+    "projectType": "Retail",
+    "projectDescription": "Test consultation",
+    "id": "bk_1792506428908_08ne",
+    "status": "confirmed",
+    "createdAt": "2026-10-20T14:27:08.908Z",
+    "referenceCode": "VID-2026-LNFMH"
+  },
+  {
+    "clientName": "Marc Lefebvre",
+    "email": "marc@kanataretail.ca",
+    "phone": "(613) 555-0144",
+    "preferredDate": "2026-10-22",
+    "preferredTimeSlot": "09:30 AM",
+    "timeZone": "America/Toronto (Eastern Time)",
+    "format": "onsite",
+    "projectType": "Retail Boutique Design",
+    "projectDescription": "Boutique footwear fit-up in Kanata Centrum",
+    "id": "bk_1792506745422_mo1t",
+    "status": "confirmed",
+    "createdAt": "2026-10-20T14:32:25.422Z",
+    "referenceCode": "VID-2026-HM2DM"
+  }
+]

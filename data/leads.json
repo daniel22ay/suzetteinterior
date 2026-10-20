@@ -1,0 +1,24 @@
+[
+  {
+    "clientName": "Test Client",
+    "email": "client@example.ca",
+    "projectType": "Retail Boutique Design",
+    "description": "Test enquiry description",
+    "source": "website_contact_form",
+    "id": "lead_1792506428906_8w88",
+    "createdAt": "2026-10-20T14:27:08.906Z"
+  },
+  {
+    "clientName": "Sarah Jenkins",
+    "email": "sjenkins@ottawacommercial.com",
+    "phone": "",
+    "projectType": "Commercial Office Fit-Up",
+    "location": "Nepean, ON",
+    "timeline": "Within 3-6 months",
+    "budgetRange": "",
+    "description": "Fit-up of 4,200 sq ft office space on March Road.",
+    "source": "website_contact_form",
+    "id": "lead_1792506805036_b0qe",
+    "createdAt": "2026-10-20T14:33:25.036Z"
+  }
+]

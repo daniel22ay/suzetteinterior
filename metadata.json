@@ -1,0 +1,6 @@
+{
+  "name": "VISION Interior Design",
+  "description": "Sophisticated homepage redesign for VISION Interior Design featuring commercial and retail portfolio, verified experience since 1987, AI Design Assistant, and real consultation appointment booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
